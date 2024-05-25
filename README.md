@@ -12,17 +12,17 @@ The primary goal of this project is to design and build a static webpage that li
 
 ### Skills Demonstrated
 By completing this project, I will have demonstrated the following skills:
-<br>
+
 - **HTML Proficiency:**
   - Structuring a webpage using semantic HTML elements.
   - Creating and organizing content with headings, paragraphs, lists, and images.
   - Ensuring proper use of HTML attributes for enhanced accessibility and functionality.
-<br>
+
 - **CSS Styling:**
   - Applying CSS to style the HTML elements, improving the visual appeal of the page.
   - Utilizing various CSS properties to control layout, typography, colors, and spacing.
   - Implementing responsive design principles to ensure the page looks good on different screen sizes.
-<br>
+
 - **Basic Web Design Principles:**
   - Crafting a visually balanced and aesthetically pleasing layout.
   - Enhancing user experience through intuitive design and easy navigation.
