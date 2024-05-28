@@ -6,6 +6,20 @@ body {
     padding: 20px;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 h1 {
     font-size: 2.5em;
     text-align: center;
@@ -13,11 +27,14 @@ h1 {
     margin-bottom: 20px;
 }
 
-img {
-    display: block;
+.image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image img {
     max-width: 100%;
     height: auto;
-    margin: 0 auto 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5)
 }
@@ -25,14 +42,25 @@ img {
 h6 {
     font-size: 0.7em;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -5px;
     margin-bottom: 20px;
     font-weight: normal;
+}
+
+.content {
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 1.1em;
     margin-bottom: 20px;
+}
+
+.ingredients, .steps {
+    margin-bottom: 20px;
+    background-color: #f2ebe6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1)
 }
 
 ul, ol {
