@@ -51,7 +51,7 @@ a {
 
 a:link, a:visited {
     text-decoration: none;
-    color: #1e1054;
+    color: hsl(22, 79%, 53%);
     font-size: 1em;
     transition: 0.3s;
     transform: 0.3s;
