@@ -45,8 +45,8 @@ li {
 
 a {
     font-size: 1em;
-    transition: color 0.3s;
-    transform: 0.3s;
+    transition: color 0.5s;
+    transform: 0.5s;
 }
 
 a:link, a:visited {
@@ -58,6 +58,6 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #1abc0c;
+    color: #2DA1AD;
     transform: scale(1.05)
 }
