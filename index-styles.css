@@ -106,17 +106,17 @@ a:hover {
     border-radius: 50%;
     top: 10%;
     left: 5%;
-  }
+}
 
-  #mid-century-shapes::after {
+#mid-century-shapes::after {
     width: 150px;
     height: 150px;
     transform: rotate(45deg);
     bottom: 15%;
     right: 10%;
-  }
+}
 
-  footer {
+footer {
     background-color: #4a4e69;
     color: #fff;
     text-align: center;
@@ -124,8 +124,93 @@ a:hover {
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+}
   
-  footer i {
+footer i {
     color: #ff6b6b;
+}
+
+:focus {
+    outline: 3px solid #4a90e2;
+    outline-offset: 2px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    li {
+        padding: 12px 6px;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+    #mid-century-shapes::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    #mid-century-shapes::after {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+      margin: 10px 5px;
+      padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    li {
+        padding: 10px 5px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #fff;
+    }
+  
+    .container {
+      background-color: #444;
+      border-color: #ff9999;
+    }
+  
+    h1 {
+      color: #ff9999;
+    }
+  
+    a:link, a:visited {
+      color: #66ccff;
+    }
+  
+    a:hover {
+      color: #99ffcc;
+    }
   }
